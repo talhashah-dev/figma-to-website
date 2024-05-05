@@ -1,0 +1,63 @@
+header {
+  min-height: 100vh;
+  background-image: url("../../assets/HeaderBg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+header .wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+header .hero-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-width: 4px 4px 0 4px;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 20px 20px 0 0;
+  backdrop-filter: blur(25px);
+  padding: 50px 40px;
+}
+
+header .hero-text .course-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  position: relative;
+}
+
+header .hero-text .course-name::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: var(--red-color);
+  left: 0;
+  bottom: -10px;
+}
+
+header .hero-text h1 {
+  font-family: "Alegreya";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 140%;
+  color: #fff;
+}
+
+header .hero-text .demo-btn {
+    background-color: var(--red-color);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
