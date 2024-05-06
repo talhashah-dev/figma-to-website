@@ -10,12 +10,12 @@ import Menu_Icon_Close from "./Menu Close Icon.svg";
 import Student_Icon from "./Student Icon.svg";
 import Video_File_Icon from "./video file icon.svg";
 import HeaderBg from "./HeaderBg.png";
-import Bg1 from "./Bg1.png";
-import Bg2 from "./Bg2.png";
-import Bg3 from "./Bg3.png";
-import Bg4 from "./Bg4.png";
-import Bg5 from "./Bg5.png";
-import Bg6 from "./Bg6.png";
+import Frequencies from "./Frequencies.png";
+import DAW from "./DAW.png";
+import VocalProcessing from "./VocalProcessing.png";
+import Mixing from "./Mixing.png";
+import MixingConsole from "./MixingConsole.png";
+import Mastering from "./Mastering.png";
 import Thumbnail1 from "./Thumbnail-1.png";
 import Thumbnail2 from "./Thumbnail-2.png";
 import Thumbnail3 from "./Thumbnail-3.png";
@@ -35,12 +35,12 @@ export {
   Student_Icon,
   Video_File_Icon,
   HeaderBg,
-  Bg1,
-  Bg2,
-  Bg3,
-  Bg4,
-  Bg5,
-  Bg6,
+  Frequencies,
+  DAW,
+  VocalProcessing,
+  Mixing,
+  MixingConsole,
+  Mastering,
   Thumbnail1,
   Thumbnail2,
   Thumbnail3,

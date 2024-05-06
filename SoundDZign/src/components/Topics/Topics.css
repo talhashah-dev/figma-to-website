@@ -1,0 +1,38 @@
+#topics .topic-image img {
+    width: 550px;
+    object-fit: cover;
+}
+
+#topics .topic-list{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+#topics .topic-list li::marker {
+    color: var(--red-color);
+}
+
+#topics .topic-list li{
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+    margin: 24px 0;
+    cursor: pointer;
+}
+
+#topics .content-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+ 
+#topics .wrapper {
+    position: relative;
+}
+
+#topics .element-yellow {
+    position: absolute;
+    right: -24px;
+    bottom: 0px;
+}   
