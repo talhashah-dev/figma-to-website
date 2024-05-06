@@ -1,0 +1,26 @@
+#info .info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+#info .info-box .amount {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#info .info-box .type {
+  font-family: "Alegreya", serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#info .info-box .amount,
+#info .info-box .type {
+  margin: 0;
+  padding: 0;
+}
+
+
