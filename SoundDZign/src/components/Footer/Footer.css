@@ -1,0 +1,48 @@
+footer {
+  color: #fff;
+  padding: 80px 0;
+}
+
+footer .content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo {
+  font-weight: 800;
+  color: #fff;
+}
+
+footer .logo span {
+  color: var(--red-color);
+}
+
+footer .links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .links h3 {
+  font-family: "Alegreya", serif;
+  color: var(--red-color);
+}
+
+footer .links .social-icons {
+    margin-top: 10px;
+    display: flex;
+  gap: 16px;
+}
+
+footer .copy-right,
+footer .copy-right a,
+footer .links ul li a {
+  color: #fff;
+  font-family: "Alegreya", serif;
+}
+
+footer .copy-right a:hover,
+footer .links ul li a:hover {
+  color: var(--red-color);
+}
