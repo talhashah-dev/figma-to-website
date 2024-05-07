@@ -1,0 +1,35 @@
+#testimonial .content-container {
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#testimonial .info-box {
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#testimonial .info-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+#testimonial .info-box h5,
+#testimonial .info-box p {
+  margin: 0;
+  padding: 0;
+}
+
+#testimonial .info-box h5 {
+  font-family: "Alegreya", serif;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+#testimonial .info-box p {
+  font-family: "Alegreya", serif;
+  font-size: 16px;
+}
