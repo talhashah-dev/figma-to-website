@@ -50,14 +50,35 @@ header .hero-text h1 {
 }
 
 header .hero-text .demo-btn {
-    background-color: var(--red-color);
-    border: none;
-    outline: none;
-    color: #fff;
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: 800;
-    border-radius: 10px;
-    padding: 10px 32px;
-    cursor: pointer;
+  background-color: var(--red-color);
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+
+/* Tablet Screen Size */
+@media screen and (max-width: 1024px) {
+  header .hero-text {
+    width: 356px;
+  }
+}
+
+/* Tablet Screen Size */
+@media screen and (max-width: 620px) {
+  header .hero-text {
+    width: unset;
+    left: 32px;
+    right: 32px;
+    padding: 40px 20px;
+  }
+
+  header .hero-text h1 {
+    font-size: 32px;
+  }
 }
