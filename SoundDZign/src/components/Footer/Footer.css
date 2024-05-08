@@ -46,3 +46,23 @@ footer .copy-right a:hover,
 footer .links ul li a:hover {
   color: var(--red-color);
 }
+
+footer .content-container .links:nth-child(2) ul,
+footer .content-container .links:nth-child(3) ul {
+  margin-left: 10px;
+}
+
+/* Tablet Screen Size */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Tablet Screen Size */
+@media screen and (max-width: 620px) {
+  footer .content-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+}

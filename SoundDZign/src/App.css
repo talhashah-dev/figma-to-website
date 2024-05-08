@@ -67,3 +67,25 @@ section .content-container {
   background-color: var(--dark-color);
 }
 
+/* Tablet Screen Size */
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 650px;
+  }
+}
+
+/* Mobile Screen Size */
+@media screen and (max-width: 620px) {
+  .wrapper {
+    padding: 0 32px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  section h2::after {
+    width: 50px;
+    bottom: -5px;
+  }
+}

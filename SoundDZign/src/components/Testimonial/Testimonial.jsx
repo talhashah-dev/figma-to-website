@@ -12,23 +12,29 @@ function Testimonial() {
         <div className="content-container">
           <div className="info-box">
             <img src={Peter} alt="" />
-            <h5 className="name">Peter Adams</h5>
-            <p>This is a great course. I got to learn a lot.</p>
+            <div>
+              <h5 className="name">Peter Adams</h5>
+              <p>This is a great course. I got to learn a lot.</p>
+            </div>
           </div>
 
           <div className="info-box">
             <img src={Robert} alt="" />
-            <h5 className="name">Robert Fox</h5>
-            <p>
-              I got to learn a lot about Music Production with this course.
-              Thanks :)
-            </p>
+            <div>
+              <h5 className="name">Robert Fox</h5>
+              <p>
+                I got to learn a lot about Music Production with this course.
+                Thanks :)
+              </p>
+            </div>
           </div>
 
           <div className="info-box">
             <img src={Emily} alt="" />
-            <h5 className="name">Emily Smith</h5>
-            <p className="review">Awesome! Great job!!</p>
+            <div>
+              <h5 className="name">Emily Smith</h5>
+              <p className="review">Awesome! Great job!!</p>
+            </div>
           </div>
         </div>
       </div>

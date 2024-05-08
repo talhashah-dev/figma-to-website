@@ -23,4 +23,29 @@
   padding: 0;
 }
 
+/* Tablet Screen Size */
+@media screen and (max-width: 1024px) {
+  #info .info-box .amount {
+    font-size: 32px;
+  }
 
+  #info .info-box .type {
+    font-size: 24px;
+  }
+}
+
+/* Tablet Screen Size */
+@media screen and (max-width: 620px) {
+  #info .content-container {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  #info .info-box .amount {
+    font-size: 32px;
+  }
+
+  #info .info-box .type {
+    font-size: 24px;
+  }
+}
