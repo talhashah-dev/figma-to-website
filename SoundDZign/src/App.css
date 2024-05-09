@@ -20,6 +20,16 @@ html {
   scroll-behavior: smooth;
 }
 
+::-moz-selection {
+  color: #fff;
+  background-color: var(--pink-color);
+}
+
+::selection {
+  color: #fff;
+  background-color: var(--pink-color);
+}
+
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;

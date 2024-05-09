@@ -60,6 +60,11 @@
   font-weight: 700;
 }
 
+#blog ::selection {
+  color: #fff;
+  background-color: var(--yellow-color) !important;
+}
+
 /* Tablet Screen Size */
 @media screen and (max-width: 1024px) {
   #blog .content-container {
