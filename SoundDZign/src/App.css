@@ -30,6 +30,18 @@ html {
   background-color: var(--pink-color);
 }
 
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #7c7c7c;
+}
+
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;
